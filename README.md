@@ -1,1 +1,1 @@
-# rsschool-cv
+https://taltosss.github.io/rsschool-cv/cv
