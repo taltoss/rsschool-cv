@@ -1,23 +1,9 @@
-*Этот текст будет наклонным (курсив)*
-_Этот текст будет наклонным (курсив)_
-**Этот текст будет наклонным жирным**
-__Этот текст будет наклонным жирным__
-_Можно **вставлять** один тип в другой_
-#Это самый крупный заголовок, он превращается в тег <h1>
-## <h2>
-### <h3>
-#### <h4>
-##### <h5>
-###### <h6>
-[Эта ссылка на Хекслет](http://hexlet.io)
-> Это мудрая цитата
-> Мудрого человека
-! [Это пциональный alt-текст](/assets/images/markdawn/markdawn.png)
-* Пункт
-* Еще один пункт
-  * Подпункт
-  * Еще один подпункт
-1. Пункт
-1. Еще один пункт
-  1. Подпункт
-  1. Еще один подпункт
+* **Name:** Sergei Ezhov
+* **E-mail:** *sezov1977@gmail.com*
+* **Phone:** +79856001716
+* **About:** Gain knowledge and skills in programming.
+* **Skills:** I don't have the skills yet.
+* **Code:** ```<div>Hello, World!!</div>```
+* **Work experience:** without experience
+* **Education:** Kazan State Technological University
+* **English level:** Beginner
