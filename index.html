@@ -1,1 +1,112 @@
 <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css" />
+    <title>Мое резюме</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <a class="header__logo" href="#">
+          <img class="header__logo-img" src="img/rs_school_js.svg" alt="rs-school logo"/></a>
+        <ul class="header__menu">
+          <li class="header__menu-item">
+            <a href="#contacts">contacts</a>
+            <span class="underline"></span>
+          </li>
+          <li class="header__menu-item">
+            <a href="#about">about</a>
+            <span class="underline"></span>
+          </li>
+          <li class="header__menu-item">
+            <a href="#skills">skills</a>
+            <span class="underline"></span>
+          </li>
+          <li class="header__menu-item">
+            <a href="#code">code</a>
+            <span class="underline"></span>
+          </li>
+          <li class="header__menu-item">
+            <a href="#education">education</a>
+            <span class="underline"></span>
+          </li>
+          <li class="header__menu-item">
+            <a href="#english">english</a>
+            <span class="underline"></span>
+          </li>
+        </ul>
+      </header>
+      <main class="main">
+        <section class="contacts" id="contacts">
+          <h2>contacts</h2>
+          <ul class="list">
+            <li class="list__item">
+              <span>email:</span>
+              <a class="email" href="mailto:sezov1977@gmail.com">sezov1977@gmail.com</a>
+            </li>
+            <li class="list__item">
+              <span>discord:</span>
+              <span>taltos#6198</span>
+            </li>
+          </ul>
+        </section>
+        <section class="about" id="about">
+          <h2>About</h2>
+          <div class="about__inner">
+            <img class="about__photo" src="img/photo.png" alt="Denis Farber" />
+            <p class="text">
+                Здравствуйте, меня зовут Сергей, я здесь, чтобы получить навыки программирования,
+                которые, я надеюсь пригодятся мне в жизни.
+            </p>
+          </div>
+        </section>
+        <section class="skills" id="skills">
+          <h2>Skills</h2>
+          <ul class="list">
+            <li class="list__item">
+              <span>HTML:</span>
+              <span>начальный уровень</span>
+            </li>
+            <li class="list__item">
+              <span>css:</span>
+              <span>начальный уровень</span>
+            </li>
+          </ul>
+        </section>
+        <section class="code" id="code">
+          <h2>Code example</h2>
+          <code>console.log('Hello World!')</code>
+        </section>
+        <section class="education" id="education">
+          <h2>Education</h2>
+          <ul class="list">
+            <li class="list__item">
+              <span>Казанский Государственный Технологический Университет</span>
+          </ul>
+        </section>
+        <section class="engish" id="english">
+          <h2>english level</h2>
+          <span class="text">Читаю и перевожу со словарем ;)</span>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="author">
+          <span>Sergei Ezhov</span>
+          <span> &#169; 2022</span>
+        </div>
+        <div class="socials">
+          <a class="github" href="https://github.com/taltoss" alt="Sergei Ezhov"></a>
+          <a class="rsschool" href="https://rs.school/js/" target="_blank"></a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
